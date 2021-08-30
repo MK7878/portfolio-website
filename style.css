@@ -1,0 +1,192 @@
+/* Default CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/*==============================TOP-BANNER-AREA-START================================= */
+
+.highlight{
+    color: rgba(255, 5, 5, 0.904);
+}
+
+.top-banner-area-content{
+    width: 40%;
+}
+
+.top-banner-left-text h1:nth-child(1){
+    margin-top: 70px;
+}
+
+.top-banner-left-text h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.top-banner-left-text h2{
+    margin-bottom: 20px;
+}
+
+.top-banner-left-text p{
+    margin-bottom: 20px;
+    /* width: 96%; */
+    font-size: 19px;
+}
+
+.default-btn{
+    color: white;
+    background: rgb(223, 188, 31);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.top-banner-right-wrapper {
+    margin-top: -330px;
+}
+
+.top-banner-right-content{
+   width: 40%;
+    
+}
+
+.top-banner-right-content img{
+    max-width: 100%;
+}
+
+#top-banner-area{
+    background-image: url(./img/top-banner.png);
+    background-repeat: no-repeat;
+}
+/* =====================================TOP-BANNER-AREA-END================================================*/
+
+        /* ----------------------------------------------------------------------------------- */
+
+/* ======================================MIDDLE-BANNER-AREA-START========================================  */
+
+#middle-banner-area .top-banner-area-content{
+    float: right;
+    clear: both;
+    display: block;
+    width: 40%;
+}
+
+#middle-banner-area .top-banner-left-image{
+    width: 40%;
+}
+
+#middle-banner-area .top-banner-left-image img{
+    max-width: 100%;
+}
+
+#middle-banner-area{
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+ 
+}
+
+/* ==========================EXPERIENCE-AREA================================= */
+
+#experience-area{
+    /* background: url(file:///D:/coding/Practice%20Project/portfolio%20website/Project2.-main/Project2.-main/img/exp-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+     */
+
+}
+
+.experience-wrapper{
+    margin-bottom: 50px;
+   
+}
+
+
+.experience-area-text-left{
+    width: 40%;
+     padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area-text-right{
+    width: 40%;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area-text-left h2:nth-child(2){
+    margin-top: 15px;
+}
+
+.experience-area-text-left p{
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.experience-area-text-right h2:nth-child(2){
+    margin-top: 15px;
+}
+
+.experience-area-text-right p{
+    margin-top: 15px;
+    margin-bottom: 27px;
+    
+} 
+
+/* footer */
+
+.footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px){
+    
+}
